@@ -12,7 +12,7 @@
 
 int _printf(const char *format, ...)
 {
-	int a, i = 0, num = 0;
+	int i = 0, num = 0;
 	char c, *s;
 
 	va_list(ap);
