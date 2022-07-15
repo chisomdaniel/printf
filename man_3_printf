@@ -6,7 +6,7 @@ _printf - formatted output conversion and print data.
 .nf
 .BI printf (FORMAT, ARGUMENT)...
 .PP
-.BI "#include 'holberton.h'"
+.BI "#include 'main.h'"
 .BI "#include <stdarg.h>"
 .BI "#include <unistd.h>"
 .PP
@@ -105,19 +105,14 @@ The character \fI%\fR is followed by zero the following flags:
 #include ''main.h''
 
 int main(void)
-
 {
-
 int length;
 
 _printf(''%s'', ''Hello, Holberton!'')
-
 _printf(''Hello Holberton! contains %d characters'', length);
-
 length = _printf(''Hello Holberton!'');
 
 return (0);
-
 }
 .SH SEE ALSO
 .R printf(3)
